@@ -45,7 +45,7 @@
 .aplayer .aplayer-pic .aplayer-pause{width:16px;height:16px;border:2px solid #fff;bottom:4px;right:4px}
 .aplayer .aplayer-pic .aplayer-pause svg{position:absolute;top:2px;left:2px;height:12px;width:12px}
 .aplayer .aplayer-info{margin-left:66px;padding:14px 7px 0 10px;height:66px;box-sizing:border-box}
-.aplayer .aplayer-info .aplayer-music{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align: center;txmargin:0 0 13px 5px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;cursor:default;padding-bottom:2px;height:20px}
+.aplayer .aplayer-info .aplayer-music{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;txmargin:0 0 13px 5px;text-align:center;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;cursor:default;padding-bottom:2px;height:20px}
 .aplayer .aplayer-info .aplayer-music .aplayer-title{font-size:14px}
 .aplayer .aplayer-info .aplayer-music .aplayer-author{font-size:12px;color:#666}
 .aplayer .aplayer-info .aplayer-controller{position:relative;display:flex}
