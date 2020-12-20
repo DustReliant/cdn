@@ -22,7 +22,7 @@ window.onload=function ()
     var i=0;
     var oTag=null;
 
-    oDiv=document.getElementById('card-tag-cloud');
+    oDiv=document.getElementByClassName('card-tag-cloud');
 
     aA=oDiv.getElementsByTagName('a');
 
@@ -172,7 +172,7 @@ function positionAll()
     var aTmp=[];
     var oFragment=document.createDocumentFragment();
 
-    //Ëæ»úÅÅÐò
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     for(i=0;i<aA.length;i++)
     {
         aTmp.push(aA[i]);
@@ -204,7 +204,7 @@ function positionAll()
             phi = Math.random()*(Math.PI);
             theta = Math.random()*(2*Math.PI);
         }
-        //×ø±ê±ä»»
+        //ï¿½ï¿½ï¿½ï¿½ä»»
         mcList[i-1].cx = radius * Math.cos(theta)*Math.sin(phi);
         mcList[i-1].cy = radius * Math.sin(theta)*Math.sin(phi);
         mcList[i-1].cz = radius * Math.cos(phi);
