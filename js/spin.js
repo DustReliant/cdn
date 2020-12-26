@@ -22,7 +22,7 @@ window.onload=function ()
     var i=0;
     var oTag=null;
 
-    oDiv=document.getElementByClassName('card-tag-cloud');
+    oDiv=document.querySelector('.card-tag-cloud');
 
     aA=oDiv.getElementsByTagName('a');
 
